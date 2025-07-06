@@ -1,0 +1,92 @@
+ /* *{
+    padding: 0;
+    margin: 0;
+
+ }
+ .container{
+    padding: 50px;
+    align-items: center;
+ }
+ 
+ #myImage {
+      width: 200px;
+      transition: all 0.3s ease;
+    }
+    button {
+      margin: 10px;
+      padding: 10px;
+      transition: all 0.3s ease;
+    } */
+        body {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* centers content horizontally */
+      justify-content: center;
+      height: 100vh; /* full viewport height */
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+    }
+
+    #buttonContainer {
+      display: flex;
+      gap: 20px; /* space between buttons */
+      margin-top: 20px;
+    }
+
+    button {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: 'Caveat', cursive;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f3d1f4;
+  color: #5c2a5d;
+  border: 2px solid #a03fa5;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(172, 88, 172, 0.3);
+}
+
+button:hover {
+  background-color: #e9b8ea;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(172, 88, 172, 0.5);
+}
+
+
+    #myImage {
+      width: 200px;
+      transition: all 0.3s ease;
+      border-radius: 8px;
+    }
+
+    h1{
+        font-size: 20px;
+        color: rgb(215, 136, 215);
+        text-align: center;
+        font-family: "Caveat";
+    }
+    .yeah{
+        color: black;
+    }
+    .all {
+  text-align: center; /* center the h1 text */
+  max-width: 400px; /* optional, limit width */
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center; /* center image and buttons */
+  max-width: 400px; /* match .all max-width */
+  margin: 10px auto 0 auto; /* top margin for spacing, horizontally centered */
+}
+
+.a {
+  border: 5px solid plum;
+  padding: 20px;
+  display: inline-block; /* ❗ This makes the border wrap image + buttons perfectly */
+  border-radius: 16px; /* cute rounded corners */
+  box-shadow: 0 0 10px rgba(221, 160, 221, 0.5); /* soft purple glow */
+  background-color: #fff0f8; /* light soft background */
+}
